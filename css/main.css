@@ -1,0 +1,41 @@
+.container {
+	margin: 50px auto;
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.container > .form {
+	margin-left: 20px;
+	max-width: 300px;
+	border-radius: 20px;
+	padding: 20px 15px;
+	background-color: lightblue;
+}
+
+.container > .form > h4 {
+	text-align: center;
+	margin: 0;
+}
+
+.container > .wrap > .myCalendar {
+	min-width: 400px;
+}
+
+.container > .wrap > .result {
+	min-width: 300px;
+	background-color: lightgrey;
+}
+
+#arrive {
+	font-style: italic;
+	font-size: 14px;
+	font-weight:bold
+}
+
+#clean {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
