@@ -68,6 +68,9 @@ $(document).ready(function(){
                 url: form.attr('action'),
                 data: form.serialize(),
                 success: function(response) {
+                    $( '#add_trip' ).each(function(){
+                        this.reset();
+                    });
                     alert(response);
                 }
             });
